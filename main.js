@@ -11,7 +11,7 @@ app.use(cors({
     origin: ['http://localhost:5173', 'https://lyrine-store.netlify.app/']
 }));
 app.use("/uploads", express.static("uploads"));
-app.use("/dist", express.static("dist"))
+app.use("/", express.static("dist"))
 
 const PORT = process.env.PORT || 4000;
 connectToDb() //connect to MongoDB
