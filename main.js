@@ -8,7 +8,7 @@ const allRoutes = require('./routes/AllRoutes');
 const multer = require('./middleware/multer');
 app.use(express.json());
 app.use(cors({
-    origin: 'https://lyrine-store.netlify.app/'
+    origin: ['http://localhost:5173', 'https://lyrine-store.netlify.app/']
 }));
 app.use("/uploads", express.static("uploads"));
 
