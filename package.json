@@ -16,7 +16,7 @@
   },
   "scripts": {
   "dev": "node main.js"
-}
+},
 
   "name": "fina-project-backend",
   "version": "1.0.0",
